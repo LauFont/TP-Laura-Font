@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Raleway;
+    src: url(fonts/Raleway-Light.ttf);
+    background-image:
+    linear-gradient(rgba(231, 232, 234, 0.97),
+    rgb(138, 6, 94, 0.73)),
+     url(imagenes/clásico.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+             
+}
+
+.main-menu {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(138, 6, 94);
+    
+}
+
+@media screen and (min-width:768px) {
+    .main-menu {
+        flex-direction: row;
+    }
+    
+}
+
+.imagen-menu {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.main-menu-item {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: Masha;
+    color:#fff;
+    font-size: 15px;
+    
+}
+
+
+
+.main-menu-item :hover {
+    color: rgb(97, 2, 66);
+}
+
+.main-menu-link {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: Raleway;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    max-width: 768px;
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        grid-template-columns: 1;
+    }
+}
+
+
+.contact-form {
+    background-color: rgb(138, 6, 94);
+    position: relative;
+}
+
+
+.contact-form:before {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    background-color: rgb(138, 6, 94);
+    transform: rotate(45deg);
+    top: 50px;
+    left: -13px;
+}
+
+form {
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+}
+
+.input-container {
+    position: relative;
+    margin: 0.5rem 0;
+}
+
+.input-container input:focus {
+    outline-color: rgb(138, 6, 94);
+}
+
+.input {
+    width: 100%;
+    border: 2px solid #fafafa;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+
+textarea.input {
+    padding: 0.8rem 1rem;
+    min-height: 100px;
+    border-radius: 22px;
+    resize: none;
+    overflow: auto;
+    outline-color: rgb(138, 6, 94);
+}
+
+
+
+.button {
+    padding: 0.3rem 1rem;
+    background-color: rgb(138, 6, 94);
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(97, 2, 66);
+
+}
+
+.input-container label {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    color: #fff;
+
+}
+
+select {
+    margin-left: 20px;
+    font-size: 0.8rem;
+    color: rgb(138, 6, 94);
+    font-family: Raleway;
+    outline-color: rgb(138, 6, 94);
+    cursor: pointer;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.contact-info {
+    padding: 2rem 2.2rem;
+    position: relative;
+}
+
+.contact-info .title {
+    color: #009999;
+}
+
+.text {
+    color: #333;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.information {
+    display: flex;
+    color: rgb(138, 6, 94);
+    margin: 0.7rem 0;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+p {
+    margin-left: 0.7rem;
+}
+
+.fa-brands {
+    color: #009999;
+    font-size: 20px;
+}
+
+.fa-solid {
+    color: #009999;
+    font-size: 20px;
+}
+
+.fa-regular {
+    color: #009999;
+    font-size: 20px;
+}
+
+a {
+    display: flex;
+    color: rgb(138, 6, 94);
+    text-decoration: none;
+}
+
+.container-footer {
+    position: sticky;
+    background-color: rgb(97, 2, 66);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.item-footer {
+    margin: 30px;
+}
+
+h4 {
+    margin: 0.5rem;
+    color: #fff;
+    ;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.error-text {
+    color: rgb(138, 6, 94);
+    visibility: hidden;
+}
