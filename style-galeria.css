@@ -63,7 +63,7 @@ img {
     align-items: center;
 }
 
-.main-menu-item :hover {
+a:hover {
     color: rgb(97, 2, 66);
 }
 
