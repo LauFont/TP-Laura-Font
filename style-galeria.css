@@ -17,8 +17,6 @@ body{
     src: url(fonts/Amalfi\ Coast.ttf);
     font-family: Beauty;
     src: url(fonts/Beauty\ in\ the\ Starlight.ttf);
-    font-family: Masha;
-    src: url(fonts/Masha.ttf);
     font-family: Raleway;
     src: url(fonts/Raleway-Light.ttf);
 }
@@ -75,12 +73,11 @@ a:hover {
     text-decoration: none;
     font-family: Raleway;
 }
-h1{
-    font-family: Masha;
-    color:#fff;
-    font-size: 15px;
-    
-} 
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #fff;
+    font-size: 40px;
+}
  .grid-container{
      margin: 1.5rem;
      display: grid;

@@ -18,9 +18,7 @@ body {
     font-family: Amalfi;
     src: url(fonts/Amalfi\ Coast.ttf);
     font-family: Beauty;
-    src: url(fonts/Beauty\ in\ the\ Starlight.ttf);
-    font-family: Masha;
-    src: url(fonts/Masha.ttf);
+    src: url(fonts/Beauty\ in\ the\ Starlight.ttf);    
     font-family: Raleway;
     src: url(fonts/Raleway-Light.ttf);
 }
@@ -93,14 +91,14 @@ a:hover {
 
 
 h1 {
-    font-family: Masha;
+    font-family: 'Sacramento', cursive;
     color: #fff;
-    font-size: 15px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 8rem;
-    font-family: Beauty in the Starlight;
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
     color: white;
     text-align: center;
 }
